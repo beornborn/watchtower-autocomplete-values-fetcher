@@ -1,0 +1,31 @@
+{
+  "name": "watchtower-autocomplete-values-fetcher",
+  "version": "1.0.0",
+  "description": "get autocomplete values for dropdown for watchtower applications",
+  "main": "./dist/",
+  "scripts": {
+    "compile": "babel --presets react,es2015,stage-0 -d dist/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beornborn/watchtower-autocomplete-values-fetcher.git"
+  },
+  "keywords": [
+    "autocomplete"
+  ],
+  "author": "Oleg Gorbunov",
+  "bugs": {
+    "url": "https://github.com/beornborn/watchtower-autocomplete-values-fetcher/issues"
+  },
+  "homepage": "https://github.com/beornborn/watchtower-autocomplete-values-fetcher#readme",
+  "dependencies": {
+    "lodash": "^4.16.1",
+    "tabletop": "^1.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
